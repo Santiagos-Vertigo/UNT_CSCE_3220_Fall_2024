@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a brief introduction to who I am.</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Diego Narvaez, a web designer and developer with a passion for coding and creativity.</p>
+    </section>
+
+    <!-- Portfolio Gallery Section -->
+    <section id="portfolio">
+        <h2>My Favorite Books</h2>
+        <table>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Publication Year</th>
+            </tr>
+            <tr>
+                <td>Book 1</td>
+                <td>Author 1</td>
+                <td>YYYY</td>
+            </tr>
+            <tr>
+                <td>Book 2</td>
+                <td>Author 2</td>
+                <td>YYYY</td>
+            </tr>
+            <tr>
+                <td>Book 3</td>
+                <td>Author 3</td>
+                <td>YYYY</td>
+            </tr>
+        </table>
+
+        <!-- Image Section -->
+        <div id="images">
+            <h3>Before and After Photoshop Comparison</h3>
+            <div class="image-comparison">
+                <img src="images/before.jpg" alt="Before Image" class="comparison-image">
+                <img src="images/after.jpg" alt="After Image" class="comparison-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="inquiry">Inquiry</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="feedback">Feedback</option>
+            </select>
+
+            <label>
+                <input type="checkbox" name="updates"> I want to receive updates
+            </label>
+
+            <fieldset>
+                <legend>Preferred Contact Method:</legend>
+                <label>
+                    <input type="radio" name="contact-method" value="email" checked> Email
+                </label>
+                <label>
+                    <input type="radio" name="contact-method" value="phone"> Phone
+                </label>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

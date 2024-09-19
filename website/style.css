@@ -1,0 +1,147 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 10px 0;
+}
+
+/* About section styling */
+#about {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* Portfolio section styling */
+#portfolio {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Image comparison section */
+.image-comparison {
+    display: flex;
+    justify-content: center;
+    /* Centers the images horizontally */
+    align-items: flex-start;
+    /* Aligns the images by the top */
+    margin-top: 20px;
+    gap: 20px;
+    /* Adds a small space between the images */
+}
+
+.comparison-image {
+    width: auto;
+    /* Keeps the original width */
+    height: 300px;
+    /* Limits the height */
+    border: 2px solid #ddd;
+    object-fit: contain;
+    /* Ensures the image is contained within the dimensions without distortion */
+}
+
+/* Contact form styling */
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
