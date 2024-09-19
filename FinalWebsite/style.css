@@ -1,0 +1,161 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1d2c56, #283e6d, #3b5f8f, #6162a7);
+    color: #fff;
+    /* Change text color to white for contrast */
+}
+
+/* Header styling */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Use a semi-transparent black overlay */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Adds a shadow for depth */
+}
+
+h1,
+h2,
+h3 {
+    margin: 10px 0;
+}
+
+/* About section styling */
+#about {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Slight transparency */
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    /* Soft rounded corners */
+}
+
+/* Portfolio section styling */
+#portfolio {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Maintain transparency */
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Lighter border */
+    text-align: left;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Semi-transparent dark background */
+    color: white;
+}
+
+#images {
+    text-align: center;
+}
+
+/* Image comparison section */
+.image-comparison {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.comparison-image {
+    width: auto;
+    height: 300px;
+    border: 2px solid #ddd;
+    object-fit: contain;
+}
+
+/* Contact form styling */
+#contact {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Darker input background */
+    color: white;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #3b5f8f;
+    /* Accent color from the palette */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6162a7;
+    /* Darker shade on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
